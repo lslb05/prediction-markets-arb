@@ -1,0 +1,12 @@
+# Line ending normalizado em LF, em qualquer sistema operacional.
+# O gerador grava LF; sem isto o checkout no Windows devolveria CRLF e o
+# projeto gerado sairia com line endings misturados.
+* text=auto eol=lf
+
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.parquet binary
+*.duckdb  binary

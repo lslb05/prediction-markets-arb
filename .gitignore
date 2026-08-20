@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Environments and secrets
+.venv/
+.env
+.env.*
+!.env.example
+
+# Data and generated artifacts
+data/raw/
+data/processed/
+artifacts/
+*.parquet
+*.duckdb
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# Credentials. The Kalshi PEM is issued once and cannot be downloaded again;
+# the whole directory is ignored so a stray key never becomes a commit.
+secrets/*
+!secrets/.gitkeep
+*.pem
+*.key
+
+# TypeScript trader
+trader/node_modules/
+trader/dist/

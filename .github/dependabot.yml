@@ -1,0 +1,24 @@
+version: 2
+updates:
+  # Ecossistema uv, nao pip: o uv le pyproject.toml e uv.lock e atualiza os
+  # dois no mesmo PR. Com pip o lock ficava para tras e o "uv sync --locked"
+  # do CI falhava em todo bump.
+  - package-ecosystem: uv
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+
+  # A metade TypeScript tem lock proprio; sem esta entrada o "npm ci" do CI
+  # continuaria instalando as versoes congeladas indefinidamente.
+  - package-ecosystem: npm
+    directory: /trader
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5

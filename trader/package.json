@@ -1,0 +1,30 @@
+{
+  "name": "prediction-markets-trader",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Passive maker on Kalshi with an asynchronous Polymarket hedge, driven by the pairs confirmed in Postgres.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "vitest run",
+    "start": "tsx src/main.ts"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "^5.2.1",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
+    "pg": "^8.13.1",
+    "uuid": "^13.0.0",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/pg": "^8.11.10",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.8"
+  }
+}

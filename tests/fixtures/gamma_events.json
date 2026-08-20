@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Fed decision in March 2030",
+    "slug": "fed-march-2030",
+    "category": "Economics",
+    "tags": [{ "label": "Macro" }],
+    "markets": [
+      {
+        "conditionId": "0xfedmarch",
+        "question": "Will the Fed cut by 25bps in March 2030?",
+        "startDate": "2030-01-01T00:00:00Z",
+        "endDate": "2030-03-20T00:00:00Z",
+        "volume": 500000,
+        "closed": false,
+        "active": true,
+        "clobTokenIds": "[\"token-no\", \"token-yes\"]",
+        "outcomes": "[\"No\", \"Yes\"]",
+        "someFieldPolymarketAddedLastWeek": "ignored"
+      },
+      {
+        "conditionId": "0xthin",
+        "question": "Will the Fed cut by 50bps in March 2030?",
+        "startDate": "2030-01-01T00:00:00Z",
+        "endDate": "2030-03-20T00:00:00Z",
+        "volume": 12,
+        "closed": false,
+        "active": true,
+        "clobTokenIds": "[\"thin-no\", \"thin-yes\"]",
+        "outcomes": "[\"No\", \"Yes\"]"
+      }
+    ]
+  },
+  {
+    "title": "Will BTC close above 100k in 2020?",
+    "slug": "btc-2020",
+    "category": "Crypto",
+    "tags": [],
+    "markets": [
+      {
+        "conditionId": "0xexpired",
+        "question": "Will BTC close above 100k in 2020?",
+        "startDate": "2020-01-01T00:00:00Z",
+        "endDate": "2020-12-31T00:00:00Z",
+        "volume": 900000,
+        "closed": false,
+        "active": true,
+        "clobTokenIds": "[\"old-no\", \"old-yes\"]",
+        "outcomes": "[\"No\", \"Yes\"]"
+      }
+    ]
+  },
+  {
+    "title": "Government shutdown before July 2030",
+    "slug": "shutdown-2030",
+    "tags": [{ "label": "Politics" }],
+    "markets": [
+      {
+        "conditionId": "0xshutdown",
+        "question": "Government shutdown before July 2030",
+        "startDate": "2030-01-01T00:00:00Z",
+        "endDate": "2030-07-01T00:00:00Z",
+        "volume": 250000,
+        "closed": false,
+        "active": true,
+        "clobTokenIds": "[\"shut-first\", \"shut-second\"]",
+        "outcomes": null
+      }
+    ]
+  }
+]

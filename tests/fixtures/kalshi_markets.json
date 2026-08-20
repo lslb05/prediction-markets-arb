@@ -1,0 +1,48 @@
+{
+  "markets": [
+    {
+      "ticker": "KXFEDDECISION-30MAR-C25",
+      "event_ticker": "KXFEDDECISION-30MAR",
+      "title": "Fed decision in March 2030",
+      "subtitle": "25 bps cut::scoped",
+      "yes_sub_title": "25 bps cut",
+      "open_time": "2030-01-01T00:00:00Z",
+      "expiration_time": "2030-03-20T00:00:00Z",
+      "yes_bid": 41,
+      "no_bid": 57,
+      "status": "active"
+    },
+    {
+      "ticker": "KXMVBASKET-30-A",
+      "event_ticker": "KXMVBASKET-30",
+      "title": "Multivariate basket leg",
+      "yes_sub_title": "A and B",
+      "open_time": "2030-01-01T00:00:00Z",
+      "expiration_time": "2030-06-01T00:00:00Z",
+      "yes_bid": 10,
+      "no_bid": 88
+    },
+    {
+      "ticker": "KXCPI-30JUN-COLLECTION",
+      "event_ticker": "KXCPI-30JUN",
+      "mve_collection_ticker": "KXCPI-30JUN",
+      "title": "CPI collection leg",
+      "yes_sub_title": "Above 3%",
+      "open_time": "2030-01-01T00:00:00Z",
+      "expiration_time": "2030-06-15T00:00:00Z",
+      "yes_bid": 22,
+      "no_bid": 75
+    },
+    {
+      "ticker": "KXSHUTDOWN-30JUL",
+      "event_ticker": "KXSHUTDOWN-30JUL",
+      "title": "Government shutdown before July 2030",
+      "yes_sub_title": "Shutdown occurs",
+      "open_time": "2030-01-01T00:00:00Z",
+      "expiration_time": "2030-07-01T00:00:00Z",
+      "yes_bid": 0,
+      "no_bid": 94
+    }
+  ],
+  "cursor": null
+}
